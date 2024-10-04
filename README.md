@@ -51,9 +51,9 @@ Set up the backend:
     ```bash
     npm start
     
-Set up the frontend:
+- Set up the frontend:
 
-Navigate to the frontend directory:
+- Navigate to the frontend directory:
     ```bash
     cd ../frontend
 
