@@ -1,6 +1,6 @@
 # Employee Record Management System
 
-A web application built using **React**, **Node.js**, **Express.js**, and **MySQL** to streamline the management of employee records for HR departments. This system ensures accurate tracking of employee data and includes automated features to improve efficiency.
+An admin based web application built using **React**, **Node.js**, **Express.js**, and **MySQL** to streamline the management of employee records for HR departments. This system ensures accurate tracking of employee data and includes automated features to improve efficiency.
 
 ## Table of Contents
 - [Features](#features)
@@ -14,7 +14,6 @@ A web application built using **React**, **Node.js**, **Express.js**, and **MySQ
 - **Employee Tracking**: Monitor total, active, removed, and former employees.
 - **Automated Offer Letter Generation**: Quickly create professional PDF offer letters with employee details.
 - **QR Code Integration**: Offer letters include secure QR codes for instant verification of employee details.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Technologies Used
 - **Frontend**: React, CSS
@@ -67,14 +66,20 @@ Set up the backend:
 
 
 ### Usage
-Access the application at http://localhost:3000.
-Admin can manage the Employee Record of the company and generate offer letters.
-easy validation of offer letters with secure QR codes.
+- Access the application at [http://localhost:3000](http://localhost:3000).
+- Log in using the admin credentials:
+  - **Username**: `admin`
+  - **Password**: `admin@555`
+- As an admin, you can:
+  - Monitor and manage employee records efficiently.
+  - Generate professional offer letters with ease.
+- Anyone can validate offer letters using secure QR codes for instant verification.
 
-Contributing
+
+### Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature.
-Commit your changes.
-Open a pull request.
+- Fork the repository.
+- Create a new branch for your feature.
+- Commit your changes.
+- Open a pull request.
