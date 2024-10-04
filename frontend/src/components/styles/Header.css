@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.wrapper-container{
+    color: #ECF0F1;
+    width: 97%;
+    margin: 0 auto auto auto;
+}
+
+.grid{
+    display: grid;
+    height: auto;
+    grid-template-columns: 13% auto;
+    grid-column-gap: 33px;
+}
+
+.input-bar{
+    height: 1.2rem;
+    width: 20rem;
+    padding: 0.6rem 0.8rem;
+    border-width: 1px;
+}
+
+
+

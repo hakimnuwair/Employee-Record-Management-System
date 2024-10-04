@@ -1,0 +1,48 @@
+.removed-members-list-container {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    color: #34495E;
+    padding: 2rem 4rem 4rem 4rem;
+}
+
+.removed-members-table-container{
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.removed-members-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Section lining (border) */
+}
+
+.removed-members-table th,
+.removed-members-table td {
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.removed-members-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.removed-members-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.removed-members-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.removed-members-table button {
+    font-size: 1.2rem;
+    margin-right: 5px;
+    margin-top: 0;
+}

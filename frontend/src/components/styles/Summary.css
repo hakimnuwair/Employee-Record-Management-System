@@ -1,0 +1,36 @@
+/* Add this CSS to your stylesheets */
+
+.admin-summary-page {
+    padding: 20px;
+}
+
+/* h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+} */
+
+.summary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.summary-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    flex: 1 0 250px; /* Adjust as needed */
+    max-width: 300px;
+}
+
+.summary-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.summary-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}

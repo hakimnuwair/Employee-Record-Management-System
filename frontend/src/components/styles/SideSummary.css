@@ -1,0 +1,62 @@
+/* ********* sidesummary ****** */
+
+.side-summary-box{
+  width: 70%;
+  height: 180px;
+  text-align: center;
+}
+
+.side-summary{
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  height: calc(100vh - 85px);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  color: #34495E;
+}
+
+.side-summary-box {
+    background-color: #F5F5F5; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 15px;
+    margin-bottom: 15px; /* Optional margin between boxes */
+  }
+  
+  .side-summary-box h3 {
+    font-size: 16px; /* Font size for headings */
+    margin-bottom: 8px; /* Optional margin below headings */
+  }
+  
+  .side-summary-box p {
+    font-size: 14px; /* Font size for content */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  .side-summary-box:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  .side-summary-btn{
+    width: 50%;
+    font-size: 1.2rem;
+    margin: 0;
+    background-color: #34495E;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 0.6rem;
+  }
+
+  .side-summary-btn:hover{
+    background-color: #2c3e50;
+  }
+
+  .side-summary-btn:focus{
+    outline: none;
+  }
+
+
+  
+  
+  

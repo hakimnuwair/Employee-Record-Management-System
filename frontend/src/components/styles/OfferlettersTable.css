@@ -1,0 +1,33 @@
+table{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.offerletters-table-section th, .offerletters-table-section td {
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.offerletter-table-btn{
+    padding: 0.8rem 0.8rem;
+}
+
+.offerletters-table th,.offerletters-table td{
+    text-align: left;
+}
+
+.offerletters-table th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.offerletters-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.offerletters-table tr:hover{
+    background-color: #ddd;
+}
